@@ -1,0 +1,30 @@
+{
+  "name": "react-autofix",
+  "version": "1.0.7",
+  "description": "A simple React input with autofocus and localStorage saving",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "keywords": [
+    "react",
+    "input",
+    "autofocus",
+    "localstorage",
+    "save"
+  ],
+  "author": "Aditya Gaikwad",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17 || ^18 || ^19",
+    "react-dom": "^17 || ^18 || ^19"
+  },
+  "scripts": {
+    "build": "tsup src/AutoSaveInput.jsx --format esm,cjs --out-dir dist --minify"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}

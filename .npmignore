@@ -1,0 +1,6 @@
+src/**/*.test.js
+*.log
+*.m
+
+node_modules/
+dist/
