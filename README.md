@@ -21,21 +21,6 @@ Auto-saving input component for React forms — Automatically preserves user inp
 ## 🚀 Import
 <pre>import AutoSaveInput from 'react-autofix'; </pre>
 
-## 🚀 Implementation
-function App() {
-  return (
-    <form>
-      <AutoSaveInput
-        type="text"
-        name="username"
-        placeholder="Enter your name"
-        label="Username"
-      />
-    </form>
-  );
-}
-
-
 ## 📃 License
 MIT License © 2025 Aditya Gaikwad
 
