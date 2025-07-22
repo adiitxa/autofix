@@ -15,17 +15,13 @@ Auto-saving input component for React forms — Automatically preserves user inp
 ---
 
 ## 📦 Installation
-
-```bash
-npm install react-autofix
+<pre> ```bash npm install react-autofix ``` </pre>
 
 
-🚀 Usage
+## 🚀 Import
+<pre> ```bash import AutoSaveInput from 'react-autofix'; ``` </pre>
 
-```bash
-import AutoSaveInput from 'react-autofix';
-
-```bash
+## 🚀 Implementation
 function App() {
   return (
     <form>
@@ -40,6 +36,6 @@ function App() {
 }
 
 
-📃 License
+## 📃 License
 MIT License © 2025 Aditya Gaikwad
 
